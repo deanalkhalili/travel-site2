@@ -1,7 +1,5 @@
 .row{
 
-
-
   @mixin clearfix;
 
   &--t-padding{
@@ -93,8 +91,7 @@
       &__large-8--smaller{
         width: 63%;
       }
-
-
+    }
   }
  /*Begin Equal Height Rules*/
  &--equal-height-at-medium{
@@ -116,6 +113,6 @@
    & > div{
      float: none;
      display: flex;
-   }
- }
+    }
+  }
 }
