@@ -1081,6 +1081,28 @@ a{
    bacground-position: 36.69752421959096% 45.792307692307695%;
  }
 
+.site-footer{
+  background-color: #2f5572;
+  color: #FFF;
+  padding: .5rem 0;
+  text-align: center;
+}
+
+.site-footer__text{
+  display:block;
+  margin-bottom: 1rem;
+  font-weight: 200;
+}
+
+@media (min-width: 800px) {
+
+  .site-footer__text {
+    display: inline;
+    margin-bottom: 0;
+    margin-right: 1.4rem;
+  }
+}
+
 .site-header{
   padding: 10px 0;
   position: absolute;
@@ -1312,4 +1334,14 @@ a{
     padding: 12px 0;
     background-color: transparent;
   }
+}
+
+.reveal-item{
+  opacity: 0;
+  -webkit-transition: opacity 1.5s ease-out;
+  transition: opacity 1.5s ease-out;
+}
+
+.reveal-item--is-visible{
+  opacity: 1;
 }
