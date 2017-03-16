@@ -13,7 +13,11 @@ class RevealOnScroll {
     this.itemsToReveal.addClass("reveal-item");
   }
 
+<<<<<<< HEAD
   createWaypoints() {
+=======
+  createWaypoints() { 
+>>>>>>> sticky-header
     var that=this;
     this.itemsToReveal.each(function () {
       var currentItem= this;
@@ -21,8 +25,12 @@ class RevealOnScroll {
         element:currentItem,
         handler:function() {
           $(currentItem).addClass("reveal-item--is-visible");
+<<<<<<< HEAD
         },
         offset: that.offsetPercentage
+=======
+        }
+>>>>>>> sticky-header
       });
     });
   }
