@@ -1,16 +1,15 @@
 .generic-content-container{
-  p{
-    font-weight: 300;
-    line-height: 1.65;
-    margin:0 0 1.8rem 0;
+ p{   /*Type selector*/
+  font-weight: 300;
+  line-height: 1.65; /*line-height does not require a unit of measurement*/
+  margin:0 0 1.8rem 0;  /* Top Right Bottom Left*/
 
-    @mixin atSmall{
-      font-size: 1.125rem;
-    }
+  @mixin atSmall{
+    font-size: 1.125rem;
   }
+ }
 
-  p a{
-
-    font-weight: 700;
-  }
+ p a{/* new rule and decendant selector created to avoid nesting css*/
+   font-weight: 700;  /*400 considered normal font-weight*/
+ }
 }

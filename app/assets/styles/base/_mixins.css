@@ -16,10 +16,9 @@
 }
 
 @define-mixin clearfix{
-  &::after{
+  &::after{ /*  Creates fake content with css to "clear floats"*/
     content:"";
     clear: both;
     display: table;
   }
-
 }

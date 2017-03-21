@@ -3,13 +3,15 @@ body{
   color: #333;
 }
 
-img {    max-width: 100%;    height: auuto;
+img{
+  max-width: 100%;
+  height: auto;
 }
 
-
-*{    box-sizing: border-box;
+* {/* asterik is for selecting every single element on the page*/
+    box-sizing: border-box; /*honors our declared widths of 33 and 66%*/
 }
 
 a{
-  color: $mainOrange;
+  color: $mainOrange;    /*Targets All links on the page*/
 }

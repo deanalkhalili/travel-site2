@@ -1,16 +1,16 @@
 import $ from 'jquery';
-<<<<<<< HEAD
+ HEAD
 import
-=======
+
 import import waypoints from '../../../../node_modules/waypoints/lib/noframework.waypoints';
 import smoothScroll from 'jquery-smooth-scroll';
->>>>>>> sticky-header
+ sticky-header
 
 class StickyHeader {
   constructor() {
    this.siteHeader=$(".site-header");
-<<<<<<< HEAD
-=======
+ HEAD
+
    this.headerTriggerElement=$(".large-hero__title");
    this.createHeaderWaypoint();
    this.pageSections=$(".page-section");
@@ -65,7 +65,7 @@ class StickyHeader {
         offset: "-40%"
       });
     });
->>>>>>> sticky-header
+ sticky-header
   }
 }
 
