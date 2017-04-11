@@ -1,4 +1,4 @@
-.testimonial{
+.testimonials {
   background-color: rgba(255,255,255,.8);
   padding: 0 18px 1px 18px;
   margin-bottom: 98px;
@@ -17,12 +17,11 @@
     overflow: hidden;
     width: 160px;
     height: 160px;
-    margin: 0 auto -80px auto;
+    margin: 0 auto -80px auto; /*Full Shorthand*/
     position: relative;
     top: -80px;
     border: 6px solid rgba(255,255,255,.8);
   }
-
   &__title{
     color: $mainBlue;
     text-align: center;
@@ -38,4 +37,5 @@
     font-size: 0.9375rem;
     margin: .25rem 0 1rem 0;
   }
+
 }
